@@ -238,5 +238,64 @@
 			}
 		},
 		"CreatedAt": "2015-10-13T09:14:27.87489602-07:00"
+	},
+	{
+		"Before": {
+			"ID": 1,
+			"Title": "Add zomg!",
+			"Description": "Zomg description!",
+			"Author": {
+				"Login": "slimsag",
+				"UID": 678177,
+				"Domain": "sourcegraph.com"
+			},
+			"DeltaSpec": {
+				"Base": {
+					"URI": "a/b/c",
+					"Rev": "master"
+				},
+				"Head": {
+					"URI": "a/b/c",
+					"Rev": "new",
+					"CommitID": "5b72244df328b15bf4e5885a4f5b41ba16b0d0d5"
+				}
+			},
+			"CreatedAt": "2015-10-13T09:13:56.760314842-07:00"
+		},
+		"After": {
+			"ID": 1,
+			"Title": "EDIT TITLE",
+			"Description": "Zomg description!",
+			"Author": {
+				"Login": "slimsag",
+				"UID": 678177,
+				"Domain": "sourcegraph.com"
+			},
+			"DeltaSpec": {
+				"Base": {
+					"URI": "a/b/c",
+					"Rev": "master"
+				},
+				"Head": {
+					"URI": "a/b/c",
+					"Rev": "new",
+					"CommitID": "5b72244df328b15bf4e5885a4f5b41ba16b0d0d5"
+				}
+			},
+			"CreatedAt": "2015-10-13T09:13:56.760314842-07:00"
+		},
+		"Op": {
+			"Repo": {
+				"URI": "a/b/c"
+			},
+			"ID": 1,
+			"Title": "EDIT TITLE",
+			"Author": {
+				"Login": "slimsag",
+				"UID": 678177,
+				"Domain": "sourcegraph.com"
+			}
+		},
+		"CreatedAt": "2015-10-13T09:14:35.131052064-07:00"
 	}
 ]
