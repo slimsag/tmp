@@ -26,5 +26,25 @@
 				"CreatedAt": "2015-10-13T09:14:09.214-07:00"
 			}
 		]
+	},
+	{
+		"ID": 2,
+		"Body": "xyz!",
+		"Author": {
+			"Login": "slimsag",
+			"UID": 678177,
+			"Domain": "sourcegraph.com"
+		},
+		"CreatedAt": "2015-10-13T11:35:01.669-07:00",
+		"Comments": [
+			{
+				"Filename": "zomg",
+				"LineNumber": 1,
+				"CommitID": "200aedc1d8d0c653e1cbe432af4588f88b5efe56",
+				"Author": {},
+				"Body": "abc",
+				"CreatedAt": "2015-10-13T11:34:18.843-07:00"
+			}
+		]
 	}
 ]
