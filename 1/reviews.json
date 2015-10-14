@@ -56,5 +56,33 @@
 			"Domain": "sourcegraph.com"
 		},
 		"CreatedAt": "2015-10-14T15:29:16.851-07:00"
+	},
+	{
+		"ID": 4,
+		"Body": "ya *okay*",
+		"Author": {
+			"Login": "slimsag",
+			"UID": 678177,
+			"Domain": "sourcegraph.com"
+		},
+		"CreatedAt": "2015-10-14T15:29:49.331-07:00",
+		"Comments": [
+			{
+				"Filename": "zomg",
+				"LineNumber": 1,
+				"CommitID": "200aedc1d8d0c653e1cbe432af4588f88b5efe56",
+				"Author": {},
+				"Body": "This line... is///",
+				"CreatedAt": "2015-10-14T15:29:23.143-07:00"
+			},
+			{
+				"Filename": "zomg",
+				"LineNumber": 1,
+				"CommitID": "200aedc1d8d0c653e1cbe432af4588f88b5efe56",
+				"Author": {},
+				"Body": "It's a very **bold change**.",
+				"CreatedAt": "2015-10-14T15:29:34.414-07:00"
+			}
+		]
 	}
 ]
