@@ -1,0 +1,22 @@
+{
+	"ID": 6,
+	"Title": "abc",
+	"Description": "efg",
+	"Author": {
+		"Login": "slimsag",
+		"UID": 678177,
+		"Domain": "sourcegraph.com"
+	},
+	"DeltaSpec": {
+		"Base": {
+			"URI": "a/b/c",
+			"Rev": "master"
+		},
+		"Head": {
+			"URI": "a/b/c",
+			"Rev": "my-feature-branch",
+			"CommitID": "b477d26accecc5147a564bce92e979eb9bb4351b"
+		}
+	},
+	"CreatedAt": "2015-10-21T20:14:28.484542635-07:00"
+}
