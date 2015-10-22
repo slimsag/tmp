@@ -1,0 +1,60 @@
+[
+	{
+		"Before": {
+			"ID": 5,
+			"Title": "ZOMG2",
+			"Description": "ZOMG1",
+			"Author": {
+				"Login": "slimsag",
+				"UID": 678177,
+				"Domain": "sourcegraph.com"
+			},
+			"DeltaSpec": {
+				"Base": {
+					"URI": "a/b/c",
+					"Rev": "master",
+					"CommitID": "98a23dbd062c15de4b86ed1f6b322bf6e9607dec"
+				},
+				"Head": {
+					"URI": "a/b/c",
+					"Rev": "my-feature-branch",
+					"CommitID": "150fd459a7970bc9b803287121791c397d5126e6"
+				}
+			},
+			"CreatedAt": "2015-10-21T20:11:37.441174283-07:00"
+		},
+		"After": {
+			"ID": 5,
+			"Title": "ZOMG2",
+			"Description": "ZOMG1",
+			"Author": {
+				"Login": "slimsag",
+				"UID": 678177,
+				"Domain": "sourcegraph.com"
+			},
+			"DeltaSpec": {
+				"Base": {
+					"URI": "a/b/c",
+					"Rev": "master",
+					"CommitID": "98a23dbd062c15de4b86ed1f6b322bf6e9607dec"
+				},
+				"Head": {
+					"URI": "a/b/c",
+					"Rev": "my-feature-branch",
+					"CommitID": "150fd459a7970bc9b803287121791c397d5126e6"
+				}
+			},
+			"CreatedAt": "2015-10-21T20:11:37.441174283-07:00",
+			"ClosedAt": "2015-10-21T20:11:48.162394873-07:00"
+		},
+		"Op": {
+			"Repo": {
+				"URI": "a/b/c"
+			},
+			"ID": 5,
+			"Close": true,
+			"Author": {}
+		},
+		"CreatedAt": "2015-10-21T20:11:48.162394873-07:00"
+	}
+]
