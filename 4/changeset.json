@@ -1,0 +1,22 @@
+{
+	"ID": 4,
+	"Title": "add foo",
+	"Description": "add foo",
+	"Author": {
+		"Login": "slimsag",
+		"UID": 678177,
+		"Domain": "sourcegraph.com"
+	},
+	"DeltaSpec": {
+		"Base": {
+			"URI": "a/b/c",
+			"Rev": "master"
+		},
+		"Head": {
+			"URI": "a/b/c",
+			"Rev": "my-feature-branch",
+			"CommitID": "d3a5e9251e33c9fed5faec8a59de4903cb11a75d"
+		}
+	},
+	"CreatedAt": "2015-10-21T17:15:48.726146729-07:00"
+}
