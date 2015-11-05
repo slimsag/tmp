@@ -9,7 +9,8 @@
 	"DeltaSpec": {
 		"Base": {
 			"URI": "a/b/c",
-			"Rev": "master"
+			"Rev": "master",
+			"CommitID": "f090f9bc909f35d67a3820ac64bfac64ea402476"
 		},
 		"Head": {
 			"URI": "a/b/c",
@@ -17,5 +18,6 @@
 			"CommitID": "57222133eb491adaabeee04f08f3d80c9ff13dd7"
 		}
 	},
-	"CreatedAt": "2015-11-04T23:40:30.031375619-07:00"
+	"CreatedAt": "2015-11-04T23:40:30.031375619-07:00",
+	"ClosedAt": "2015-11-04T23:40:38.036239804-07:00"
 }
