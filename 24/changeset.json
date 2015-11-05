@@ -1,0 +1,21 @@
+{
+	"ID": 24,
+	"Title": "woot woot",
+	"Author": {
+		"Login": "slimsag",
+		"UID": 678177,
+		"Domain": "sourcegraph.com"
+	},
+	"DeltaSpec": {
+		"Base": {
+			"URI": "a/b/c",
+			"Rev": "master"
+		},
+		"Head": {
+			"URI": "a/b/c",
+			"Rev": "32274",
+			"CommitID": "6e1ef17a1817fccb3a0ca7067294999a37d9f470"
+		}
+	},
+	"CreatedAt": "2015-11-05T06:56:46.70996916-07:00"
+}
