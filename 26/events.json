@@ -1,0 +1,60 @@
+[
+	{
+		"Before": {
+			"ID": 26,
+			"Title": "woot woot",
+			"Author": {
+				"Login": "slimsag",
+				"UID": 678177,
+				"Domain": "sourcegraph.com"
+			},
+			"DeltaSpec": {
+				"Base": {
+					"URI": "a/b/c",
+					"Rev": "master",
+					"CommitID": "96a5676259b6453e4858a0204679cb226e25b8c4"
+				},
+				"Head": {
+					"URI": "a/b/c",
+					"Rev": "10790",
+					"CommitID": "6108fb3e6c96d240184163a791a32aa92ca9f52b"
+				}
+			},
+			"CreatedAt": "2015-11-05T10:05:46.899248311-07:00"
+		},
+		"After": {
+			"ID": 26,
+			"Title": "woot woot",
+			"Author": {
+				"Login": "slimsag",
+				"UID": 678177,
+				"Domain": "sourcegraph.com"
+			},
+			"DeltaSpec": {
+				"Base": {
+					"URI": "a/b/c",
+					"Rev": "master",
+					"CommitID": "96a5676259b6453e4858a0204679cb226e25b8c4"
+				},
+				"Head": {
+					"URI": "a/b/c",
+					"Rev": "10790",
+					"CommitID": "6108fb3e6c96d240184163a791a32aa92ca9f52b"
+				}
+			},
+			"Merged": true,
+			"CreatedAt": "2015-11-05T10:05:46.899248311-07:00",
+			"ClosedAt": "2015-11-05T10:05:54.73084633-07:00"
+		},
+		"Op": {
+			"Repo": {
+				"URI": "a/b/c"
+			},
+			"ID": 26,
+			"Close": true,
+			"Merged": true,
+			"Author": {}
+		},
+		"CreatedAt": "2015-11-05T10:05:54.73084633-07:00"
+	}
+]
