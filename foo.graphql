@@ -1,0 +1,7 @@
+mutation EnableLanguage {
+  langServers {
+    enable(language: "go") {
+      alwaysNil
+    }
+  }
+}
